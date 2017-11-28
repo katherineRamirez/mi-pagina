@@ -1,0 +1,95 @@
+/* Media query que cambia estilos con un mínimo de 200px y un máximo de 1000px */
+@media (min-width: 200px) and (max-width: 1000px) {
+	[class*="col-"] {
+		width: 100%;
+	}
+	.ul-header{
+		display: none;
+	}
+	.fa-bars{
+		display: inline-block;
+		float: right;
+		font-size: 2em;
+		position: relative;
+		bottom: 1.7em;
+		border: 2px solid #848484;
+		border-radius: 2%;
+		padding: 0.2em 0.3em;
+		right: 1em;
+		color: #848484;
+	}
+	#myHeader{
+		height: 5em;
+	}
+	.p-header{
+		margin-left: 0;
+	}
+	#container1{
+		height: 30em;
+	}
+	.title-container1{
+		font-size: 5.5em;
+    position: absolute;
+	}
+	.subtitle-container1{
+    margin-top: 30px;
+		font-size: 6.3em;
+	}
+  .text1{
+    margin-left: 0;
+    width: 35em;
+  }
+  .title1-container2, .title2-container2{
+    font-size: 2.5em;
+  }
+  .button-text1{
+    font-size: 1.5em;
+  }
+  .picture1, .picture2, .picture3{
+    position: relative;
+    padding-top: 20%;
+    padding-left: 16%;
+    font-size: 2.5em;
+    margin-left: 0.1em;
+  }
+  .picture2, .picture3{
+    margin-top: 8em;
+  }
+  .card1{
+    bottom: 80em;
+    margin-left: 1em;
+    width: 25em;
+  }
+  .card2{
+    bottom: 860px;
+    margin-left: 1em;
+    width: 25em;
+  }
+  .card3{
+    bottom: 27em;
+    margin-left: 1em;
+    width: 25em;
+  }
+  .card-title1, .card-title2, .card-title3{
+    margin-top: 2em;
+  }
+  .button1, .button2, .button3{
+    width: 400px;
+  }
+  .button1{
+    bottom: 105em;
+    margin-left: 1em;
+  }
+  .button2{
+    bottom: 1125px;
+    margin-left: 1em;
+  }
+  .button3{
+    bottom: 35.30em;
+    margin-left: 1em;
+  }
+  #footer{
+    height: 6em;
+   } 
+
+}

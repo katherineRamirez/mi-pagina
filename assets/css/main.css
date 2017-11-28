@@ -1,0 +1,150 @@
+*{
+	margin: 0;
+	padding: 0;
+   font-family: 'Montserrat', sans-serif;
+   box-sizing: border-box;
+}
+/* Color de fondo y de letra del header */
+#myHeader{
+	background-color: #585858;
+	color: white;
+}
+
+.p-header{
+	font-size: 1.5em;
+	margin-left: 1em;
+}
+/* Dejar invisible el ícono del menú de hamburguesa */
+.fa-bars{
+  display: none;
+}
+/* Estilos de la lista del menú del header */
+.ul-header a{
+	text-decoration: none;
+	color: white;
+	float: left;
+	margin-left: 5em;
+}
+/* Quitándole los estilos de la lista del menú */
+li{
+	list-style: none;
+}
+
+/* Estilos de la primera sección */
+#container1{
+	background-color: #BDBDBD;
+	height: 15em;
+}
+/* Estilos del título de la primera sección */
+.title-container1, .subtitle-container1{
+	text-align: center;
+}
+.title-container1{
+	color: white;
+	font-size: 3em;
+}
+/* Estilos del subtítulo de la primera sección */
+.subtitle-container1{
+	color: #848484;
+	font-size: 3em;
+}
+/* Estilos del primer texto en la segunda sección */
+.text1{
+	margin-left: 2em;
+	width: 35em;
+}
+/* Estilos del título del primer texto en la segunda sección */
+.title1-container2, .title2-container2{
+	margin-top: 4em;
+	font-size: 1.5em;
+}
+/* Estilos del párrafo del primer texto en la segunda sección */
+.paragraph1-container2, .ul-container2{
+	margin-top: 3em;
+}
+/* Estilos del botón del primer texto en la segunda sección */
+.button-text1{
+	margin-top: 2em;
+	color: white;
+	background: #0080FF;
+	border-radius: 0.5em;
+	padding: 0.7em;
+}
+/* Estilos de las imagenes de la tercera sección */
+.picture1, .picture2, .picture3{
+	background-color: #BDBDBD;
+	width: 10em;
+  	height: 7em;
+	margin-top: 2em;
+	padding-top: 20%;
+	padding-left: 15%;
+	color: #848484;
+	font-size: 1.88em;
+}
+.picture1{
+	margin-left: 1.6em;
+}
+.picture2{
+	margin-left: 1em;
+}
+/* Estilos de las tarjetas de la tercera sección */
+.card1, .card2, .card3{
+	position: relative;
+	bottom: 0.70em;
+	width: 18.80em;
+	border: 1px solid #BDBDBD;
+}
+.card1{
+	margin-left: 3.8em;
+}
+.card2{
+	margin-left: 6.8em;
+}
+.card3{
+	margin-left: 6.2em;
+}
+/* Estilos de los títulos de las tarjetas de la tercera sección */
+.card-title1, .card-title2, .card-title3{
+	margin-top: 1em;
+	font-size: 1.5em;
+}
+/* Estilos de los párrafos de las tarjetas de la tercera sección */
+.p-card-title1, .p-card-title2, .p-card-title3{
+	font-size: 0.80em;
+}
+/* Estilos de los botones de las tarjetas de la tercera sección */
+.button-card-title1, .button-card-title2, .button-card-title3{
+	color: white;
+	background: #0080FF;
+	border-radius: 0.5em;
+	padding: 0.7em;
+}
+.button1, .button2, .button3{
+  	background-color: #E6E6E6;
+	position: relative;
+	bottom: 0.8em;
+	width: 18.78em;
+	border: 1px solid #BDBDBD;
+}
+.button1{
+	margin-left: 3.80em;
+}
+.button2{
+	margin-left: 6.80em;
+}
+.button3{
+	margin-left: 6.2em;
+}
+/* Estilos del footer */
+#footer{
+  margin-top: 2em;
+  background-color: #585858;
+  color: white;
+  height: 4.5em;
+  text-align: center;
+  font-size: 1.5em;
+}
+/* Estilos del texto del footer */
+.p-footer{
+  margin-top: 1.5em;
+}
