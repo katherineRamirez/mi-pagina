@@ -36,60 +36,24 @@
 		font-size: 6.3em;
 	}
   .text1{
-    margin-left: 0;
-    width: 35em;
+    width: 100%;
+    margin-left: 1em;
   }
-  .title1-container2, .title2-container2{
-    font-size: 2.5em;
+  .text2{
+    width: 100%;
+    margin-left: 1em;
   }
-  .button-text1{
-    font-size: 1.5em;
+  .col-4{
+    width: 100%;
   }
   .picture1, .picture2, .picture3{
-    position: relative;
-    padding-top: 20%;
-    padding-left: 16%;
-    font-size: 2.5em;
-    margin-left: 0.1em;
-  }
-  .picture2, .picture3{
-    margin-top: 8em;
-  }
-  .card1{
-    bottom: 80em;
-    margin-left: 1em;
-    width: 25em;
-  }
-  .card2{
-    bottom: 860px;
-    margin-left: 1em;
-    width: 25em;
-  }
-  .card3{
-    bottom: 27em;
-    margin-left: 1em;
-    width: 25em;
-  }
-  .card-title1, .card-title2, .card-title3{
-    margin-top: 2em;
-  }
-  .button1, .button2, .button3{
-    width: 400px;
-  }
-  .button1{
-    bottom: 105em;
-    margin-left: 1em;
-  }
-  .button2{
-    bottom: 1125px;
-    margin-left: 1em;
-  }
-  .button3{
-    bottom: 35.30em;
-    margin-left: 1em;
+    font-size: 2em;
   }
   #footer{
     height: 6em;
-   } 
-
+  } 
+  .p-footer{
+    font-size: 0.75em;
+    margin-top: 2em;
+  }
 }

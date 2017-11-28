@@ -70,47 +70,32 @@ li{
 	border-radius: 0.5em;
 	padding: 0.7em;
 }
+#container3 .col-3{
+	margin: 2%;
+}
 /* Estilos de las imagenes de la tercera sección */
 .picture1, .picture2, .picture3{
 	background-color: #BDBDBD;
 	width: 10em;
   	height: 7em;
 	margin-top: 2em;
-	padding-top: 20%;
-	padding-left: 15%;
+	padding-top: 25%;
+	padding-left: 20%;
 	color: #848484;
 	font-size: 1.88em;
 }
-.picture1{
-	margin-left: 1.6em;
-}
-.picture2{
-	margin-left: 1em;
-}
-/* Estilos de las tarjetas de la tercera sección */
-.card1, .card2, .card3{
-	position: relative;
-	bottom: 0.70em;
-	width: 18.80em;
-	border: 1px solid #BDBDBD;
-}
-.card1{
-	margin-left: 3.8em;
-}
-.card2{
-	margin-left: 6.8em;
-}
-.card3{
-	margin-left: 6.2em;
-}
 /* Estilos de los títulos de las tarjetas de la tercera sección */
 .card-title1, .card-title2, .card-title3{
-	margin-top: 1em;
-	font-size: 1.5em;
+	padding-top: 5%;
+	padding-left: 0.4em;
+	font-size: 1.6em;
+	width: 18.80em;
 }
 /* Estilos de los párrafos de las tarjetas de la tercera sección */
 .p-card-title1, .p-card-title2, .p-card-title3{
-	font-size: 0.80em;
+	font-size: 0.95em;
+	padding-left: 0.4em;
+	width: 18.5em;
 }
 /* Estilos de los botones de las tarjetas de la tercera sección */
 .button-card-title1, .button-card-title2, .button-card-title3{
@@ -118,23 +103,9 @@ li{
 	background: #0080FF;
 	border-radius: 0.5em;
 	padding: 0.7em;
+	margin-top: 2em;
 }
-.button1, .button2, .button3{
-  	background-color: #E6E6E6;
-	position: relative;
-	bottom: 0.8em;
-	width: 18.78em;
-	border: 1px solid #BDBDBD;
-}
-.button1{
-	margin-left: 3.80em;
-}
-.button2{
-	margin-left: 6.80em;
-}
-.button3{
-	margin-left: 6.2em;
-}
+
 /* Estilos del footer */
 #footer{
   margin-top: 2em;
